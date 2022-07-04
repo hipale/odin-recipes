@@ -1,0 +1,23 @@
+* {
+    margin-top: 0px;
+}
+body {
+    background-color: rgb(136, 63, 63);
+    color: white;
+    : 15px;
+}
+h1 {
+ text-transform: uppercase; 
+ text-align: center; 
+ letter-spacing: 4px; 
+ background-color: rgb(13, 21, 59);
+}
+ a:link, a:visited {
+ color: white;
+text-decoration: none;
+ font-size: 40px;
+}
+a:active, a:hover {
+  opacity: 0.6;
+  color: #DEDEDE;
+}
