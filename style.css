@@ -1,5 +1,5 @@
 * {
-    margin-top: 0px;
+    margin: 0px;
 }
 body {
     background-color: rgb(136, 63, 63);
@@ -20,7 +20,7 @@ text-decoration: none;
 a:active, a:hover {
   opacity: 0.6;
   color: rgb(19, 7, 77);
-  border: 3px dotted white;
+  border-bottom: 3px dotted rgb(201, 191, 191);
 }
 li {
     margin: 7.5px;
@@ -33,4 +33,19 @@ ol, ul {
  flex-wrap: wrap;
  justify-content: space-between;
  width: 100%;
+}
+.item {
+    height: 40px;
+    width: 40px;
+}
+.imgLink{
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    
+}
+img {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
 }
