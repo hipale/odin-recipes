@@ -4,7 +4,6 @@
 body {
     background-color: rgb(136, 63, 63);
     color: white;
-    : 15px;
 }
 h1 {
  text-transform: uppercase; 
@@ -13,11 +12,25 @@ h1 {
  background-color: rgb(13, 21, 59);
 }
  a:link, a:visited {
- color: white;
+ color: rgb(19, 7, 77);
 text-decoration: none;
  font-size: 40px;
+ border-bottom: 3px dotted white;
 }
 a:active, a:hover {
   opacity: 0.6;
-  color: #DEDEDE;
+  color: rgb(19, 7, 77);
+  border: 3px dotted white;
+}
+li {
+    margin: 7.5px;
+}
+ol, ul {
+    margin: 40px;
+}
+#flexCont {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ width: 100%;
 }
